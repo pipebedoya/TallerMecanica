@@ -1,0 +1,9 @@
+C:\Users\feder\Documents\Servicio Automotriz\TallerMecanica\dominio\obj\Debug\netstandard2.0\dominio.csprojAssemblyReference.cache
+C:\Users\feder\Documents\Servicio Automotriz\TallerMecanica\dominio\obj\Debug\netstandard2.0\dominio.AssemblyInfoInputs.cache
+C:\Users\feder\Documents\Servicio Automotriz\TallerMecanica\dominio\obj\Debug\netstandard2.0\dominio.AssemblyInfo.cs
+C:\Users\feder\Documents\Servicio Automotriz\TallerMecanica\dominio\obj\Debug\netstandard2.0\dominio.csproj.CoreCompileInputs.cache
+C:\Users\feder\Documents\Servicio Automotriz\TallerMecanica\dominio\bin\Debug\netstandard2.0\dominio.deps.json
+C:\Users\feder\Documents\Servicio Automotriz\TallerMecanica\dominio\bin\Debug\netstandard2.0\dominio.dll
+C:\Users\feder\Documents\Servicio Automotriz\TallerMecanica\dominio\bin\Debug\netstandard2.0\dominio.pdb
+C:\Users\feder\Documents\Servicio Automotriz\TallerMecanica\dominio\obj\Debug\netstandard2.0\dominio.dll
+C:\Users\feder\Documents\Servicio Automotriz\TallerMecanica\dominio\obj\Debug\netstandard2.0\dominio.pdb

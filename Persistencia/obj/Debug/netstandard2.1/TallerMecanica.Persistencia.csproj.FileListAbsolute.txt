@@ -1,0 +1,12 @@
+C:\Users\feder\Documents\Servicio Automotriz\TallerMecanica\Persistencia\obj\Debug\netstandard2.1\TallerMecanica.Persistencia.csprojAssemblyReference.cache
+C:\Users\feder\Documents\Servicio Automotriz\TallerMecanica\Persistencia\obj\Debug\netstandard2.1\TallerMecanica.Persistencia.AssemblyInfoInputs.cache
+C:\Users\feder\Documents\Servicio Automotriz\TallerMecanica\Persistencia\obj\Debug\netstandard2.1\TallerMecanica.Persistencia.AssemblyInfo.cs
+C:\Users\feder\Documents\Servicio Automotriz\TallerMecanica\Persistencia\obj\Debug\netstandard2.1\TallerMecanica.Persistencia.csproj.CoreCompileInputs.cache
+C:\Users\feder\Documents\Servicio Automotriz\TallerMecanica\Persistencia\bin\Debug\netstandard2.1\TallerMecanica.Persistencia.deps.json
+C:\Users\feder\Documents\Servicio Automotriz\TallerMecanica\Persistencia\bin\Debug\netstandard2.1\TallerMecanica.Persistencia.dll
+C:\Users\feder\Documents\Servicio Automotriz\TallerMecanica\Persistencia\bin\Debug\netstandard2.1\TallerMecanica.Persistencia.pdb
+C:\Users\feder\Documents\Servicio Automotriz\TallerMecanica\Persistencia\bin\Debug\netstandard2.1\Dominio.dll
+C:\Users\feder\Documents\Servicio Automotriz\TallerMecanica\Persistencia\bin\Debug\netstandard2.1\Dominio.pdb
+C:\Users\feder\Documents\Servicio Automotriz\TallerMecanica\Persistencia\obj\Debug\netstandard2.1\TallerMecanica.Persistencia.csproj.CopyComplete
+C:\Users\feder\Documents\Servicio Automotriz\TallerMecanica\Persistencia\obj\Debug\netstandard2.1\TallerMecanica.Persistencia.dll
+C:\Users\feder\Documents\Servicio Automotriz\TallerMecanica\Persistencia\obj\Debug\netstandard2.1\TallerMecanica.Persistencia.pdb
