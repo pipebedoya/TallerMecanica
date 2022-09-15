@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using System;
 namespace TallerMecanica.Persistencia
 {
     public class AppContext : DbContext
@@ -6,15 +7,15 @@ namespace TallerMecanica.Persistencia
     {
         public DbSet<Persona> Personas {set;get;}
     
-        /*protected override void onConfiguring(DbContextOptionsBuilder optionsBuilder)
-
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
        { 
            if(!optionsBuilder.IsConfigured )
            {
-            optionsBuilder
-            .UseSqlserver("Data Source = (localDb)\\MSSQLlocalDb; Initial Catalog =TallerMecanicaData");
+            /*optionsBuilder.UseSqlServer("Data Source=.;Initial Catalog=EfCoreDb;Integrated Security=True");
+            base.OnConfiguring(optionsBuilder);*/
+            optionsBuilder.UseSqlServer("Data Source= (localDb)\\MSSQLlocalDb; Initial Catalog=Data");
            }
-       }*/
+       }
 
 
 

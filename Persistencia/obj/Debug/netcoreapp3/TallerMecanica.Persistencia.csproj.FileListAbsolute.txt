@@ -1,0 +1,15 @@
+C:\Users\feder\Documents\Servicio Automotriz\TallerMecanica\Persistencia\bin\Debug\netcoreapp3\TallerMecanica.Persistencia.deps.json
+C:\Users\feder\Documents\Servicio Automotriz\TallerMecanica\Persistencia\bin\Debug\netcoreapp3\TallerMecanica.Persistencia.runtimeconfig.json
+C:\Users\feder\Documents\Servicio Automotriz\TallerMecanica\Persistencia\bin\Debug\netcoreapp3\TallerMecanica.Persistencia.runtimeconfig.dev.json
+C:\Users\feder\Documents\Servicio Automotriz\TallerMecanica\Persistencia\bin\Debug\netcoreapp3\TallerMecanica.Persistencia.dll
+C:\Users\feder\Documents\Servicio Automotriz\TallerMecanica\Persistencia\bin\Debug\netcoreapp3\TallerMecanica.Persistencia.pdb
+C:\Users\feder\Documents\Servicio Automotriz\TallerMecanica\Persistencia\bin\Debug\netcoreapp3\Dominio.dll
+C:\Users\feder\Documents\Servicio Automotriz\TallerMecanica\Persistencia\bin\Debug\netcoreapp3\Dominio.pdb
+C:\Users\feder\Documents\Servicio Automotriz\TallerMecanica\Persistencia\obj\Debug\netcoreapp3\TallerMecanica.Persistencia.csprojAssemblyReference.cache
+C:\Users\feder\Documents\Servicio Automotriz\TallerMecanica\Persistencia\obj\Debug\netcoreapp3\TallerMecanica.Persistencia.AssemblyInfoInputs.cache
+C:\Users\feder\Documents\Servicio Automotriz\TallerMecanica\Persistencia\obj\Debug\netcoreapp3\TallerMecanica.Persistencia.AssemblyInfo.cs
+C:\Users\feder\Documents\Servicio Automotriz\TallerMecanica\Persistencia\obj\Debug\netcoreapp3\TallerMecanica.Persistencia.csproj.CoreCompileInputs.cache
+C:\Users\feder\Documents\Servicio Automotriz\TallerMecanica\Persistencia\obj\Debug\netcoreapp3\TallerMecanica.Persistencia.csproj.CopyComplete
+C:\Users\feder\Documents\Servicio Automotriz\TallerMecanica\Persistencia\obj\Debug\netcoreapp3\TallerMecanica.Persistencia.dll
+C:\Users\feder\Documents\Servicio Automotriz\TallerMecanica\Persistencia\obj\Debug\netcoreapp3\TallerMecanica.Persistencia.pdb
+C:\Users\feder\Documents\Servicio Automotriz\TallerMecanica\Persistencia\obj\Debug\netcoreapp3\TallerMecanica.Persistencia.genruntimeconfig.cache
