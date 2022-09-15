@@ -13,7 +13,7 @@ namespace TallerMecanica.Persistencia
            {
             /*optionsBuilder.UseSqlServer("Data Source=.;Initial Catalog=EfCoreDb;Integrated Security=True");
             base.OnConfiguring(optionsBuilder);*/
-            optionsBuilder.UseSqlServer("Data Source= (localDb)\\MSSQLlocalDb; Initial Catalog=Data");
+            optionsBuilder.UseSqlServer("Data Source= (localdb)\\MSSQLlocalDB; Initial Catalog=Data");
            }
        }
 
