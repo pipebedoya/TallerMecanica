@@ -1,7 +1,7 @@
-using system;
-namespace tallermecanica
+using System;
+namespace Dominio
 {
-    public class Persona
+    public class Cliente
     {
         public int Id {get;set;}
         public string Nombre {get;set;}

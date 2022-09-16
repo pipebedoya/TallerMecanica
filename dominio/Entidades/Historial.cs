@@ -1,8 +1,8 @@
 using System;
 
-namespace dominio
+namespace Domino
 {
-    public class Class1
+    public class Historial
     {
         public string Fecha_in_Fecha_Out {get;set;}
         public float Hora_in_Hora_Out {get;set;}

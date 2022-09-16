@@ -1,6 +1,6 @@
 using System;
 
-namespace dominio
+namespace Dominio
 {
     public class Tecnico
     {

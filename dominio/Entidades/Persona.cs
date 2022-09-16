@@ -1,5 +1,5 @@
-using system;
-namespace tallermecanica
+using System;
+namespace TallerMecanica
 {
     public class Persona
     {
@@ -7,7 +7,6 @@ namespace tallermecanica
         public string Nombre {get;set;}
         public string Apellido {get;set;}
         public string NumeroTelefono {get;set;}
-        public genero genero {get;set;}
         
     }
 
