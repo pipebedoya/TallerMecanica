@@ -1,5 +1,6 @@
 ﻿using System;
 using Dominio;
+using TallerMecanica;
 
 namespace Consola
 {

@@ -6,6 +6,7 @@ namespace TallerMecanica.Persistencia
 
     {
         public DbSet<Persona> Personas {set;get;}
+        public DbSet<Vehiculo> Vehiculos {set;get;}
     
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
        { 
