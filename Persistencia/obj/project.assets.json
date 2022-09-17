@@ -2069,14 +2069,14 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "Dominio/1.0.0": {
+      "dominio/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
         "compile": {
-          "bin/placeholder/Dominio.dll": {}
+          "bin/placeholder/dominio.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Dominio.dll": {}
+          "bin/placeholder/dominio.dll": {}
         }
       }
     }
@@ -7247,19 +7247,19 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
-    "Dominio/1.0.0": {
+    "dominio/1.0.0": {
       "type": "project",
-      "path": "../Dominio/Dominio.csproj",
-      "msbuildProject": "../Dominio/Dominio.csproj"
+      "path": "../dominio/dominio.csproj",
+      "msbuildProject": "../dominio/dominio.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.1": [
-      "Dominio >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 5.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.0",
       "Microsoft.EntityFrameworkCore.Sqlserver >= 5.0.0",
-      "Microsoft.EntityFrameworkCore.Tools >= 5.0.0"
+      "Microsoft.EntityFrameworkCore.Tools >= 5.0.0",
+      "dominio >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -7286,8 +7286,8 @@
       "frameworks": {
         "netstandard2.1": {
           "projectReferences": {
-            "C:\\Users\\feder\\Documents\\Servicio Automotriz\\TallerMecanica\\Dominio\\Dominio.csproj": {
-              "projectPath": "C:\\Users\\feder\\Documents\\Servicio Automotriz\\TallerMecanica\\Dominio\\Dominio.csproj"
+            "C:\\Users\\feder\\Documents\\Servicio Automotriz\\TallerMecanica\\dominio\\dominio.csproj": {
+              "projectPath": "C:\\Users\\feder\\Documents\\Servicio Automotriz\\TallerMecanica\\dominio\\dominio.csproj"
             }
           }
         }

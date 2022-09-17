@@ -1,5 +1,4 @@
 using System.Collections.Generic;
-/*using System.Collections.Generic;*/
 using Dominio;
 
 namespace TallerMecanica.Persistencia
@@ -9,9 +8,9 @@ namespace TallerMecanica.Persistencia
     
        /* IEnumerable<Vehiculo> GetAllVehiculos();
         Vehiculo AddVehiculo(vehiculo vehiculo);
-        VehiculoUpdateVehiculo(Vehicuo Vehiculo);
+        Vehiculo UpdateVehiculo(Vehicuo Vehiculo);
         void DeleteVehiculo(int Id_Vehiculo);
-        vehiculo GetVehiculo(int Id_Vehiculo);*/
+        Vehiculo GetVehiculo(int Id_Vehiculo);*/
 
 
 

@@ -3,7 +3,7 @@ using System;
 
 namespace TallerMecanica.Persistencia
 {
-    public class RepositorioVehiculo : IRepositorioVehiculo
+    public class RepositorioVehiculo:IRepositorioVehiculo
     {
         /*private readonly AppContext _appContext;
 

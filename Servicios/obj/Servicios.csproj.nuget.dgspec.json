@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\feder\\Documents\\Nueva carpeta\\TallerMecanica\\Servicios\\Servicios.csproj": {}
+    "C:\\Users\\feder\\Documents\\Servicio Automotriz\\TallerMecanica\\Servicios\\Servicios.csproj": {}
   },
   "projects": {
-    "C:\\Users\\feder\\Documents\\Nueva carpeta\\TallerMecanica\\Servicios\\Servicios.csproj": {
+    "C:\\Users\\feder\\Documents\\Servicio Automotriz\\TallerMecanica\\Servicios\\Servicios.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\feder\\Documents\\Nueva carpeta\\TallerMecanica\\Servicios\\Servicios.csproj",
+        "projectUniqueName": "C:\\Users\\feder\\Documents\\Servicio Automotriz\\TallerMecanica\\Servicios\\Servicios.csproj",
         "projectName": "Servicios",
-        "projectPath": "C:\\Users\\feder\\Documents\\Nueva carpeta\\TallerMecanica\\Servicios\\Servicios.csproj",
+        "projectPath": "C:\\Users\\feder\\Documents\\Servicio Automotriz\\TallerMecanica\\Servicios\\Servicios.csproj",
         "packagesPath": "C:\\Users\\feder\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\feder\\Documents\\Nueva carpeta\\TallerMecanica\\Servicios\\obj\\",
+        "outputPath": "C:\\Users\\feder\\Documents\\Servicio Automotriz\\TallerMecanica\\Servicios\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\feder\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -53,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.422\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.423\\RuntimeIdentifierGraph.json"
         }
       }
     }
