@@ -7,12 +7,12 @@
   "targets": {
     ".NETStandard,Version=v2.0": {},
     ".NETStandard,Version=v2.0/": {
-      "dominio/1.0.0": {
+      "Dominio/1.0.0": {
         "dependencies": {
           "NETStandard.Library": "2.0.3"
         },
         "runtime": {
-          "dominio.dll": {}
+          "Dominio.dll": {}
         }
       },
       "Microsoft.NETCore.Platforms/1.1.0": {},
@@ -24,7 +24,7 @@
     }
   },
   "libraries": {
-    "dominio/1.0.0": {
+    "Dominio/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -36,7 +36,7 @@ namespace TallerMecanica.Persistencia.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Personas");
+                    b.ToTable("personas");
                 });
 
             modelBuilder.Entity("TallerMecanica.Vehiculo", b =>

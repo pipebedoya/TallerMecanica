@@ -9,8 +9,8 @@ using TallerMecanica.Persistencia;
 namespace TallerMecanica.Persistencia.Migrations
 {
     [DbContext(typeof(AppContext))]
-    [Migration("20220917053202_inicial1")]
-    partial class inicial1
+    [Migration("20220917175113_Inicial")]
+    partial class Inicial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -38,7 +38,7 @@ namespace TallerMecanica.Persistencia.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Personas");
+                    b.ToTable("personas");
                 });
 
             modelBuilder.Entity("TallerMecanica.Vehiculo", b =>

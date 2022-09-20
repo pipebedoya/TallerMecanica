@@ -1,15 +1,16 @@
 using System;
-using TallerMecanica;
+//using TallerMecanica;
 
-namespace Dominio
+//namespace Dominio
+namespace TallerMecanica
 {
     public class Vehiculo
     {
-        public string Id_Vehiculo {get;set;}
+        public int Id {get;set;}
         public int Numero_Placa {get;set;}
         public string Modelo {get;set;}
         public string Color {get;set;}
         public int Cilindraje {get;set;}
-        public string Apellido {get;set;}
+        //public string Apellido {get;set;}
     }
 }
