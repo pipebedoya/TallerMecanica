@@ -29,7 +29,11 @@ namespace TallerMecanica.Persistencia
         }
 
 
+<<<<<<< HEAD
        /* Vehiculo IRepositorioVehiculo.UpdateVehiculo(Vehiculo Vehiculo);
+=======
+        /*Vehiculo IRepositorioVehiculo.UpdateVehiculo(Vehiculo Vehiculo);
+>>>>>>> 981daf5163f9e23acecc35f123e78c8c3e0755bf
         {throw new System.NotimplementedException();}
         void IRepositorio.DeleteVehiculo(int Id_Vehiculo );
         {throw new System.NotimplementedException();}
