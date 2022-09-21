@@ -15,7 +15,7 @@ namespace TallerMecanica.Persistencia
 
 
 
-       /* IEnumerable<Vehiculo> GetAllVehiculos();
+       /*IEnumerable<Vehiculo> GetAllVehiculos();
         Vehiculo AddVehiculo(Vehiculo Vehiculo);
         Vehiculo UpdateVehiculo(Vehiculo Vehiculo);
         void DeleteVehiculo(int Id_Vehiculo );
