@@ -9,11 +9,7 @@ namespace TallerMecanica.Persistencia
     
         IEnumerable<Vehiculo> GetAllVehiculos();
         Vehiculo AddVehiculo(vehiculo vehiculo);
-<<<<<<< HEAD
         Vehiculo UpdateVehiculo(Vehicuo Vehiculo);
-=======
-        /*Vehiculo UpdateVehiculo(Vehicuo Vehiculo);
->>>>>>> 981daf5163f9e23acecc35f123e78c8c3e0755bf
         void DeleteVehiculo(int Id_Vehiculo);
         Vehiculo GetVehiculo(int Id_Vehiculo);
 
