@@ -5,7 +5,7 @@ namespace TallerMecanica.Persistencia
 {
     public class RepositorioVehiculo:IRepositorioVehiculo
     {
-        /*private readonly AppContext _appContext;
+        private readonly AppContext _appContext;
 
         public RepositorioVehiculo(AppContext appContext)
         {
@@ -22,7 +22,7 @@ namespace TallerMecanica.Persistencia
         }
 
 
-        Vehiculo IRepositorioVehiculo.UpdateVehiculo(Vehiculo Vehiculo);
+        /*Vehiculo IRepositorioVehiculo.UpdateVehiculo(Vehiculo Vehiculo);
         {throw new System.NotimplementedException();}
         void IRepositorio.DeleteVehiculo(int Id_Vehiculo );
         {throw new System.NotimplementedException();}
