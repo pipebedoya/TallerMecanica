@@ -1,17 +1,18 @@
-using System.IO.Enumeration;
+/*using System.IO.Enumeration;
 using System.IO;
 using System.Security.AccessControl;
 using System;
 using System.Collections.Generic;
-using SystemAcl.linq;
+//using System.linq;
 using System.Threading.Tasks;
 
-/*using IRepositorioVehiculo;*/
+//using IRepositorioVehiculo;
 
 namespace TallerMecanica.Persistencia
 {
     public class RepositorioVehiculo:IRepositorioVehiculo
     {
+        throw new System.NotimplementedException();
         private readonly AppContext _appContext;
 
         public RepositorioVehiculo(AppContext appContext)
@@ -29,20 +30,17 @@ namespace TallerMecanica.Persistencia
         }
 
 
-<<<<<<< HEAD
-       /* Vehiculo IRepositorioVehiculo.UpdateVehiculo(Vehiculo Vehiculo);
-=======
-        /*Vehiculo IRepositorioVehiculo.UpdateVehiculo(Vehiculo Vehiculo);
->>>>>>> 981daf5163f9e23acecc35f123e78c8c3e0755bf
+        Vehiculo IRepositorioVehiculo.UpdateVehiculo(Vehiculo Vehiculo);
+        Vehiculo IRepositorioVehiculo.UpdateVehiculo(Vehiculo Vehiculo);
         {throw new System.NotimplementedException();}
         void IRepositorio.DeleteVehiculo(int Id_Vehiculo );
         {throw new System.NotimplementedException();}
         Vehiculo IRepositorio.GetVehiculo(int Id_Vehiculo);
         {throw new System.NotimplementedException();}
-        */
+        
 
     }
 
 
 
-}
+}*/

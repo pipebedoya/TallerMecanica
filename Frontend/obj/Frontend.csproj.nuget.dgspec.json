@@ -1,0 +1,202 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\feder\\Documents\\Servicio Automotriz\\TallerMecanica\\Frontend\\Frontend.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\feder\\Documents\\Servicio Automotriz\\TallerMecanica\\dominio\\dominio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\feder\\Documents\\Servicio Automotriz\\TallerMecanica\\dominio\\dominio.csproj",
+        "projectName": "dominio",
+        "projectPath": "C:\\Users\\feder\\Documents\\Servicio Automotriz\\TallerMecanica\\dominio\\dominio.csproj",
+        "packagesPath": "C:\\Users\\feder\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\feder\\Documents\\Servicio Automotriz\\TallerMecanica\\dominio\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\feder\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.423\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\feder\\Documents\\Servicio Automotriz\\TallerMecanica\\Frontend\\Frontend.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\feder\\Documents\\Servicio Automotriz\\TallerMecanica\\Frontend\\Frontend.csproj",
+        "projectName": "Frontend",
+        "projectPath": "C:\\Users\\feder\\Documents\\Servicio Automotriz\\TallerMecanica\\Frontend\\Frontend.csproj",
+        "packagesPath": "C:\\Users\\feder\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\feder\\Documents\\Servicio Automotriz\\TallerMecanica\\Frontend\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\feder\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\feder\\Documents\\Servicio Automotriz\\TallerMecanica\\dominio\\dominio.csproj": {
+                "projectPath": "C:\\Users\\feder\\Documents\\Servicio Automotriz\\TallerMecanica\\dominio\\dominio.csproj"
+              },
+              "C:\\Users\\feder\\Documents\\Servicio Automotriz\\TallerMecanica\\Persistencia\\TallerMecanica.Persistencia.csproj": {
+                "projectPath": "C:\\Users\\feder\\Documents\\Servicio Automotriz\\TallerMecanica\\Persistencia\\TallerMecanica.Persistencia.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.423\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\feder\\Documents\\Servicio Automotriz\\TallerMecanica\\Persistencia\\TallerMecanica.Persistencia.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\feder\\Documents\\Servicio Automotriz\\TallerMecanica\\Persistencia\\TallerMecanica.Persistencia.csproj",
+        "projectName": "TallerMecanica.Persistencia",
+        "projectPath": "C:\\Users\\feder\\Documents\\Servicio Automotriz\\TallerMecanica\\Persistencia\\TallerMecanica.Persistencia.csproj",
+        "packagesPath": "C:\\Users\\feder\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\feder\\Documents\\Servicio Automotriz\\TallerMecanica\\Persistencia\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\feder\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {
+              "C:\\Users\\feder\\Documents\\Servicio Automotriz\\TallerMecanica\\dominio\\dominio.csproj": {
+                "projectPath": "C:\\Users\\feder\\Documents\\Servicio Automotriz\\TallerMecanica\\dominio\\dominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlserver": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.423\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

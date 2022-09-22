@@ -8,8 +8,8 @@ using TallerMecanica.Persistencia;
 
 namespace TallerMecanica.Persistencia.Migrations
 {
-    [DbContext(typeof(AppContext))]
-    [Migration("20220917175113_Inicial")]
+    [DbContext(typeof(ApppContext))]
+    [Migration("20220922014421_Inicial")]
     partial class Inicial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -20,52 +20,31 @@ namespace TallerMecanica.Persistencia.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("ProductVersion", "5.0.0");
 
-            modelBuilder.Entity("TallerMecanica.Persona", b =>
+            modelBuilder.Entity("Dominio.Tecnico", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .UseIdentityColumn();
 
-                    b.Property<string>("Apellido")
+                    b.Property<string>("Apellidos")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Nombre")
+                    b.Property<int>("Ced")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Nombres")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("NumeroTelefono")
+                    b.Property<string>("NumeroTel")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("genero")
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
-                    b.ToTable("personas");
-                });
-
-            modelBuilder.Entity("TallerMecanica.Vehiculo", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .UseIdentityColumn();
-
-                    b.Property<string>("Apellido")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("Cilindraje")
-                        .HasColumnType("int");
-
-                    b.Property<string>("Color")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Modelo")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("Numero_Placa")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Vehiculos");
+                    b.ToTable("tecnicos");
                 });
 #pragma warning restore 612, 618
         }

@@ -4,24 +4,24 @@ using Microsoft.EntityFrameworkCore;
 
 namespace TallerMecanica.Persistencia
 {
-    public class AppContext: DbContext
+    public class ApppContext: DbContext
     {
         private const string connectionString = @"Data Source=localhost;Initial Catalog=DataBase;Integrated Security=True;";
-        public DbSet<Persona> personas {get; set;}
+        //public DbSet<Persona> personas {get; set;}
+        //public DbSet<Vehiculo> Vehiculos {get; set;}
+        public DbSet<Tecnico> tecnicos {get; set;}
+        public ApppContext()
+        {}
 
-        public DbSet<Vehiculo> Vehiculos {get; set;}
+        public ApppContext(DbContextOptions<ApppContext> options):base(options)
+        {
 
-        public AppContext(){}
-
-        public AppContext(DbContextOptions<AppContext> options)
-        :base(options)
-    {
-    }
-
-     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-    {
-        optionsBuilder.UseSqlServer(connectionString);
-    }
+        }
+        
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            optionsBuilder.UseSqlServer(connectionString);
+        }
 
     }
 }

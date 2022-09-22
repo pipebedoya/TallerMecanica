@@ -1,4 +1,4 @@
-using System;
+/*using System;
 namespace TallerMecanica
 {
     public class Persona
@@ -11,3 +11,4 @@ namespace TallerMecanica
     }
 
 }
+*/

@@ -5,10 +5,10 @@ namespace Dominio
     public class Tecnico
     {
         public int Id {get;set;}
-        public string Nombre {get;set;}
-        public string Apellido {get;set;}
-        public int Cedula {get;set;}
-        public string NumeroTelefono {get;set;}
+        public string Nombres {get;set;}
+        public string Apellidos {get;set;}
+        public int Ced {get;set;}
+        public string NumeroTel {get;set;}
         public string genero {get;set;}
     }
 }
