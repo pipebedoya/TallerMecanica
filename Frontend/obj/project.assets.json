@@ -1509,23 +1509,23 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "dominio/1.0.0": {
+      "Dominio/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
         "compile": {
-          "bin/placeholder/dominio.dll": {}
+          "bin/placeholder/Dominio.dll": {}
         },
         "runtime": {
-          "bin/placeholder/dominio.dll": {}
+          "bin/placeholder/Dominio.dll": {}
         }
       },
       "TallerMecanica.Persistencia/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
         "dependencies": {
+          "Dominio": "1.0.0",
           "Microsoft.EntityFrameworkCore": "5.0.0",
-          "Microsoft.EntityFrameworkCore.Sqlserver": "5.0.0",
-          "dominio": "1.0.0"
+          "Microsoft.EntityFrameworkCore.Sqlserver": "5.0.0"
         },
         "compile": {
           "bin/placeholder/TallerMecanica.Persistencia.dll": {}
@@ -5778,10 +5778,10 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
-    "dominio/1.0.0": {
+    "Dominio/1.0.0": {
       "type": "project",
-      "path": "../dominio/dominio.csproj",
-      "msbuildProject": "../dominio/dominio.csproj"
+      "path": "../Dominio/Dominio.csproj",
+      "msbuildProject": "../Dominio/Dominio.csproj"
     },
     "TallerMecanica.Persistencia/1.0.0": {
       "type": "project",
@@ -5791,9 +5791,9 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "Dominio >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.0",
-      "TallerMecanica.Persistencia >= 1.0.0",
-      "dominio >= 1.0.0"
+      "TallerMecanica.Persistencia >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -5820,8 +5820,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\feder\\Documents\\Servicio Automotriz\\TallerMecanica\\dominio\\dominio.csproj": {
-              "projectPath": "C:\\Users\\feder\\Documents\\Servicio Automotriz\\TallerMecanica\\dominio\\dominio.csproj"
+            "C:\\Users\\feder\\Documents\\Servicio Automotriz\\TallerMecanica\\Dominio\\Dominio.csproj": {
+              "projectPath": "C:\\Users\\feder\\Documents\\Servicio Automotriz\\TallerMecanica\\Dominio\\Dominio.csproj"
             },
             "C:\\Users\\feder\\Documents\\Servicio Automotriz\\TallerMecanica\\Persistencia\\TallerMecanica.Persistencia.csproj": {
               "projectPath": "C:\\Users\\feder\\Documents\\Servicio Automotriz\\TallerMecanica\\Persistencia\\TallerMecanica.Persistencia.csproj"

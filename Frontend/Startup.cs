@@ -1,3 +1,5 @@
+using System.Reflection;
+using System.Buffers;
 using System.Runtime.Serialization;
 using System.Net.Security;
 using System;
@@ -11,6 +13,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using TallerMecanica.Persistencia;
+using Microsoft.EntityFrameworkCore;
 
 namespace Frontend
 {
@@ -28,7 +31,7 @@ namespace Frontend
         {
             services.AddRazorPages();
             services.AddScoped<IRepositorioTecnico,RepositorioTecnico>();
-            services.AddDbContext<ApppContext>(); 
+            services.AddDbContext<ApppContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
