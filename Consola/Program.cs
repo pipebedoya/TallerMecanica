@@ -11,7 +11,7 @@ namespace Consola
         static void Main(string[] args)
         {
             ObtenerTecnicos();
-           // AdicionarTecnico();
+            AdicionarTecnico();
            //EliminarTecnico(2);
             /*Tecnico t = new Tecnico();
             t.Nombres = "Juan";

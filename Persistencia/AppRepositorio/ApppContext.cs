@@ -10,6 +10,7 @@ namespace TallerMecanica.Persistencia
         //public DbSet<Persona> personas {get; set;}
         //public DbSet<Vehiculo> Vehiculos {get; set;}
         public DbSet<Tecnico> tecnicos {get; set;}
+        public DbSet<Cliente> clientes {get; set;}
         public ApppContext()
         {}
 
