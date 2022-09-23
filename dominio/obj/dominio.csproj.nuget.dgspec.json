@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\feder\\Documents\\Servicio Automotriz\\TallerMecanica\\Dominio\\Dominio.csproj": {}
+    "C:\\Users\\afbed\\Desktop\\Taller mecanica clonado\\TallerMecanica\\Dominio\\Dominio.csproj": {}
   },
   "projects": {
-    "C:\\Users\\feder\\Documents\\Servicio Automotriz\\TallerMecanica\\Dominio\\Dominio.csproj": {
+    "C:\\Users\\afbed\\Desktop\\Taller mecanica clonado\\TallerMecanica\\Dominio\\Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\feder\\Documents\\Servicio Automotriz\\TallerMecanica\\Dominio\\Dominio.csproj",
+        "projectUniqueName": "C:\\Users\\afbed\\Desktop\\Taller mecanica clonado\\TallerMecanica\\Dominio\\Dominio.csproj",
         "projectName": "Dominio",
-        "projectPath": "C:\\Users\\feder\\Documents\\Servicio Automotriz\\TallerMecanica\\Dominio\\Dominio.csproj",
-        "packagesPath": "C:\\Users\\feder\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\feder\\Documents\\Servicio Automotriz\\TallerMecanica\\Dominio\\obj\\",
+        "projectPath": "C:\\Users\\afbed\\Desktop\\Taller mecanica clonado\\TallerMecanica\\Dominio\\Dominio.csproj",
+        "packagesPath": "C:\\Users\\afbed\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\afbed\\Desktop\\Taller mecanica clonado\\TallerMecanica\\Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\feder\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\afbed\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"

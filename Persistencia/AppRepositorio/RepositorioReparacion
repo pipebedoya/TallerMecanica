@@ -1,0 +1,54 @@
+using System.Collections.Generic;
+using System.Linq; 
+using Dominio;
+
+namespace TallerMecanica.Persistencia
+{
+    public class RepositorioReparacion : IRepositorioReparacion
+    {
+      
+     private readonly AppContext _appContext; 
+
+    Reparacion IRepositorioReparacion.AddReparacion (Reparacion reparacion) 
+    {
+        var reparacionAdicionado=_appcontext.Reparaciones.Add(reparacion);
+       _appcontext.Savechanges();
+       return reparacionAdicionado.Entity;
+    }
+
+    void IRepositorioReparacion.DeleteReparacion(Reparacion reparacion){
+
+        var reparacionEncontrado=_appContex.Reparaciones.FirstOrDefault(r=> r.Id == Id_Reparacion);
+        if (reparacionEncontrado == null)
+            return;
+        _appContex.Reparaciones.Remove(reparacionEncontrado);
+        _appContex.Savechanges();
+    }
+
+  
+    IEnumerable<Reparacion> IRepositorioReparacion.GetAllReparaciones()
+    {
+       return _appContex.Reparaciones;
+    }
+
+    Reparacion IRepositorioReparacion.GetReparacion(int Id_Reparacion)
+    {
+      return _appContex.Reparaciones.FirstOrDefault(r=> r.Id == Id_Reparacion);
+    }
+
+    Reparacion IRepositorioReparacion.UpdateReparacion(Reparacion reparacion)
+    {
+    var reparacionEncontrado=_appContex.Reparaciones.FirstOrDefault(r=> r.Id == Reparacion.Id);
+    if(reparacionEncontrado!= null)
+    { 
+      reparacionEncontrado.Id_Reparacion = Reparacion.Id;
+      reparacionEncontrado.Id_Tecnico= Reparacion.Id_Tecnico;
+      reparacionEncontrado.Repuestos= Reparacion.Repuestos;
+      reparacionEncontrado.Id_historial= Reparacion.Id_historial;
+
+      _appContext.Savechanges();
+    }
+       return reparacionEncontrado; 
+    }
+
+}
