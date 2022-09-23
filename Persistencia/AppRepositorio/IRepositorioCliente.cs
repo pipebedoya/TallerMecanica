@@ -1,4 +1,4 @@
-/*using System.Collections.Generic;
+using System.Collections.Generic;
 using Dominio;
 
 namespace TallerMecanica.Persistencia
@@ -12,4 +12,4 @@ namespace TallerMecanica.Persistencia
       Cliente GetCliente(int Id_Cliente);
  }
 
-}*/
+}

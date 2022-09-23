@@ -7,3 +7,12 @@ C:\Users\feder\Documents\Servicio Automotriz\TallerMecanica\Dominio\obj\Debug\ne
 C:\Users\feder\Documents\Servicio Automotriz\TallerMecanica\Dominio\obj\Debug\netstandard2.1\Dominio.csproj.CoreCompileInputs.cache
 C:\Users\feder\Documents\Servicio Automotriz\TallerMecanica\Dominio\obj\Debug\netstandard2.1\Dominio.dll
 C:\Users\feder\Documents\Servicio Automotriz\TallerMecanica\Dominio\obj\Debug\netstandard2.1\Dominio.pdb
+C:\Users\afbed\Desktop\Taller mecanica clonado\TallerMecanica\dominio\bin\Debug\netstandard2.1\dominio.deps.json
+C:\Users\afbed\Desktop\Taller mecanica clonado\TallerMecanica\dominio\bin\Debug\netstandard2.1\dominio.dll
+C:\Users\afbed\Desktop\Taller mecanica clonado\TallerMecanica\dominio\bin\Debug\netstandard2.1\dominio.pdb
+C:\Users\afbed\Desktop\Taller mecanica clonado\TallerMecanica\dominio\obj\Debug\netstandard2.1\dominio.csprojAssemblyReference.cache
+C:\Users\afbed\Desktop\Taller mecanica clonado\TallerMecanica\dominio\obj\Debug\netstandard2.1\dominio.AssemblyInfoInputs.cache
+C:\Users\afbed\Desktop\Taller mecanica clonado\TallerMecanica\dominio\obj\Debug\netstandard2.1\dominio.AssemblyInfo.cs
+C:\Users\afbed\Desktop\Taller mecanica clonado\TallerMecanica\dominio\obj\Debug\netstandard2.1\dominio.csproj.CoreCompileInputs.cache
+C:\Users\afbed\Desktop\Taller mecanica clonado\TallerMecanica\dominio\obj\Debug\netstandard2.1\dominio.dll
+C:\Users\afbed\Desktop\Taller mecanica clonado\TallerMecanica\dominio\obj\Debug\netstandard2.1\dominio.pdb

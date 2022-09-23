@@ -10,3 +10,15 @@ C:\Users\feder\Documents\Servicio Automotriz\TallerMecanica\Persistencia\bin\Deb
 C:\Users\feder\Documents\Servicio Automotriz\TallerMecanica\Persistencia\obj\Debug\netstandard2.1\TallerMecanica.Persistencia.csproj.CopyComplete
 C:\Users\feder\Documents\Servicio Automotriz\TallerMecanica\Persistencia\obj\Debug\netstandard2.1\TallerMecanica.Persistencia.dll
 C:\Users\feder\Documents\Servicio Automotriz\TallerMecanica\Persistencia\obj\Debug\netstandard2.1\TallerMecanica.Persistencia.pdb
+C:\Users\afbed\Desktop\Taller mecanica clonado\TallerMecanica\Persistencia\bin\Debug\netstandard2.1\TallerMecanica.Persistencia.deps.json
+C:\Users\afbed\Desktop\Taller mecanica clonado\TallerMecanica\Persistencia\bin\Debug\netstandard2.1\TallerMecanica.Persistencia.dll
+C:\Users\afbed\Desktop\Taller mecanica clonado\TallerMecanica\Persistencia\bin\Debug\netstandard2.1\TallerMecanica.Persistencia.pdb
+C:\Users\afbed\Desktop\Taller mecanica clonado\TallerMecanica\Persistencia\bin\Debug\netstandard2.1\dominio.dll
+C:\Users\afbed\Desktop\Taller mecanica clonado\TallerMecanica\Persistencia\bin\Debug\netstandard2.1\dominio.pdb
+C:\Users\afbed\Desktop\Taller mecanica clonado\TallerMecanica\Persistencia\obj\Debug\netstandard2.1\TallerMecanica.Persistencia.csprojAssemblyReference.cache
+C:\Users\afbed\Desktop\Taller mecanica clonado\TallerMecanica\Persistencia\obj\Debug\netstandard2.1\TallerMecanica.Persistencia.AssemblyInfoInputs.cache
+C:\Users\afbed\Desktop\Taller mecanica clonado\TallerMecanica\Persistencia\obj\Debug\netstandard2.1\TallerMecanica.Persistencia.AssemblyInfo.cs
+C:\Users\afbed\Desktop\Taller mecanica clonado\TallerMecanica\Persistencia\obj\Debug\netstandard2.1\TallerMecanica.Persistencia.csproj.CoreCompileInputs.cache
+C:\Users\afbed\Desktop\Taller mecanica clonado\TallerMecanica\Persistencia\obj\Debug\netstandard2.1\TallerMecanica.Persistencia.csproj.CopyComplete
+C:\Users\afbed\Desktop\Taller mecanica clonado\TallerMecanica\Persistencia\obj\Debug\netstandard2.1\TallerMecanica.Persistencia.dll
+C:\Users\afbed\Desktop\Taller mecanica clonado\TallerMecanica\Persistencia\obj\Debug\netstandard2.1\TallerMecanica.Persistencia.pdb

@@ -18,3 +18,23 @@ C:\Users\feder\Documents\Servicio Automotriz\TallerMecanica\Servicios\obj\Debug\
 C:\Users\feder\Documents\Servicio Automotriz\TallerMecanica\Servicios\obj\Debug\netcoreapp3.1\Servicios.dll
 C:\Users\feder\Documents\Servicio Automotriz\TallerMecanica\Servicios\obj\Debug\netcoreapp3.1\Servicios.pdb
 C:\Users\feder\Documents\Servicio Automotriz\TallerMecanica\Servicios\obj\Debug\netcoreapp3.1\Servicios.genruntimeconfig.cache
+C:\Users\afbed\Desktop\Taller mecanica clonado\TallerMecanica\Servicios\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\afbed\Desktop\Taller mecanica clonado\TallerMecanica\Servicios\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\afbed\Desktop\Taller mecanica clonado\TallerMecanica\Servicios\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\afbed\Desktop\Taller mecanica clonado\TallerMecanica\Servicios\bin\Debug\netcoreapp3.1\Servicios.exe
+C:\Users\afbed\Desktop\Taller mecanica clonado\TallerMecanica\Servicios\bin\Debug\netcoreapp3.1\Servicios.deps.json
+C:\Users\afbed\Desktop\Taller mecanica clonado\TallerMecanica\Servicios\bin\Debug\netcoreapp3.1\Servicios.runtimeconfig.json
+C:\Users\afbed\Desktop\Taller mecanica clonado\TallerMecanica\Servicios\bin\Debug\netcoreapp3.1\Servicios.runtimeconfig.dev.json
+C:\Users\afbed\Desktop\Taller mecanica clonado\TallerMecanica\Servicios\bin\Debug\netcoreapp3.1\Servicios.dll
+C:\Users\afbed\Desktop\Taller mecanica clonado\TallerMecanica\Servicios\bin\Debug\netcoreapp3.1\Servicios.pdb
+C:\Users\afbed\Desktop\Taller mecanica clonado\TallerMecanica\Servicios\obj\Debug\netcoreapp3.1\Servicios.csprojAssemblyReference.cache
+C:\Users\afbed\Desktop\Taller mecanica clonado\TallerMecanica\Servicios\obj\Debug\netcoreapp3.1\Servicios.AssemblyInfoInputs.cache
+C:\Users\afbed\Desktop\Taller mecanica clonado\TallerMecanica\Servicios\obj\Debug\netcoreapp3.1\Servicios.AssemblyInfo.cs
+C:\Users\afbed\Desktop\Taller mecanica clonado\TallerMecanica\Servicios\obj\Debug\netcoreapp3.1\Servicios.csproj.CoreCompileInputs.cache
+C:\Users\afbed\Desktop\Taller mecanica clonado\TallerMecanica\Servicios\obj\Debug\netcoreapp3.1\Servicios.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\afbed\Desktop\Taller mecanica clonado\TallerMecanica\Servicios\obj\Debug\netcoreapp3.1\Servicios.RazorTargetAssemblyInfo.cache
+C:\Users\afbed\Desktop\Taller mecanica clonado\TallerMecanica\Servicios\obj\Debug\netcoreapp3.1\staticwebassets\Servicios.StaticWebAssets.Manifest.cache
+C:\Users\afbed\Desktop\Taller mecanica clonado\TallerMecanica\Servicios\obj\Debug\netcoreapp3.1\staticwebassets\Servicios.StaticWebAssets.xml
+C:\Users\afbed\Desktop\Taller mecanica clonado\TallerMecanica\Servicios\obj\Debug\netcoreapp3.1\Servicios.dll
+C:\Users\afbed\Desktop\Taller mecanica clonado\TallerMecanica\Servicios\obj\Debug\netcoreapp3.1\Servicios.pdb
+C:\Users\afbed\Desktop\Taller mecanica clonado\TallerMecanica\Servicios\obj\Debug\netcoreapp3.1\Servicios.genruntimeconfig.cache
