@@ -4,8 +4,7 @@ using Dominio;
 namespace TallerMecanica.Persistencia
 {
  public interface IRepositorioTecnico
- {
-      
+ {      
       Tecnico AddTecnico(Tecnico tecnico);
       IEnumerable<Tecnico> GetAllTecnico();
       Tecnico UpdateTecnico(Tecnico tecnico);

@@ -8,19 +8,19 @@
     ".NETStandard,Version=v2.1": []
   },
   "packageFolders": {
-    "C:\\Users\\afbed\\.nuget\\packages\\": {}
+    "C:\\Users\\feder\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\afbed\\Desktop\\Taller mecanica clonado\\TallerMecanica\\Dominio\\Dominio.csproj",
+      "projectUniqueName": "C:\\Users\\feder\\Documents\\Servicio Automotriz\\TallerMecanica\\Dominio\\Dominio.csproj",
       "projectName": "Dominio",
-      "projectPath": "C:\\Users\\afbed\\Desktop\\Taller mecanica clonado\\TallerMecanica\\Dominio\\Dominio.csproj",
-      "packagesPath": "C:\\Users\\afbed\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\afbed\\Desktop\\Taller mecanica clonado\\TallerMecanica\\Dominio\\obj\\",
+      "projectPath": "C:\\Users\\feder\\Documents\\Servicio Automotriz\\TallerMecanica\\Dominio\\Dominio.csproj",
+      "packagesPath": "C:\\Users\\feder\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\feder\\Documents\\Servicio Automotriz\\TallerMecanica\\Dominio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\afbed\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\feder\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.1"

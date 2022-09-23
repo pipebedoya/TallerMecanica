@@ -5,7 +5,7 @@ namespace TallerMecanica.Persistencia
 {
  public interface IRepositorioHistorial
  {
-    IEnumerable<Historial> GetAllHistoriales();
+      IEnumerable<Historial> GetAllHistorial();
       Historial AddHistorial(Historial historial);
       Historial UpdateHistorial(Historial historial);
       void DeleteHistorial(int Id_Historial);

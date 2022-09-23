@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System;
 using System.Linq; 
 using Dominio;
 
@@ -6,49 +7,53 @@ namespace TallerMecanica.Persistencia
 {
     public class RepositorioHistorial : IRepositorioHistorial
     {
-    private readonly AppContext _appContext; 
+    private readonly ApppContext _appContext; 
+    public RepositorioHistorial(ApppContext appContext)
+          {
+               _appContext = appContext;
+          }
 
-    Historia IRepositorioHistorial.AddHistorial (Historial historial) 
+    Historial IRepositorioHistorial.AddHistorial (Historial historial) 
     {
-        var historialAdicionado=_appcontext.Historias.Add(historial);
-       _appcontext.Savechanges();
+        var historialAdicionado=_appContext.historiales.Add(historial);
+       _appContext.SaveChanges();
        return historialAdicionado.Entity;
     }
 
-    void IRepositorioHistorial.DeleteHistorial(Historial historial){
+    void IRepositorioHistorial.DeleteHistorial(int Id_Historial){
 
-        var historialEncontrado=_appContex.Historias.FirstOrDefault(h=> h.Id == Id_Historial);
-        if (historialncontrado == null)
+        var historialEncontrado=_appContext.historiales.FirstOrDefault(h=> h.Id == Id_Historial);
+        if (historialEncontrado == null)
             return;
-        _appContex.Historiales.Remove(historialEncontrado);
-        _appContex.Savechanges();
+        _appContext.Remove(historialEncontrado);
+        _appContext.SaveChanges();
     }
 
   
-    IEnumerable<Historial> IRepositorioHistorial.GetAllHistoriales()
+    IEnumerable<Historial> IRepositorioHistorial.GetAllHistorial()
     {
-       return _appContex.Historiales;
+       return _appContext.historiales;
     }
 
     Historial IRepositorioHistorial.GetHistorial(int Id_Historial)
     {
-      return _appContex.Historiales.FirstOrDefault(r=> r.Id == Id_Historial);
+      return _appContext.historiales.FirstOrDefault(r=> r.Id == Id_Historial);
     }
 
     Historial IRepositorioHistorial.UpdateHistorial(Historial historial)
     {
-    var historialEncontrado=_appContex.Historiales.FirstOrDefault(r=> r.Id == Historial.Id);
+    var historialEncontrado=_appContext.historiales.FirstOrDefault(r=> r.Id == historial.Id);
     if(historialEncontrado!= null)
     { 
-      historialEncontrado.Id_factura= Historial.Id_factura;
-      historialEncontrado.Iva= Historial.Iva;
-      historialEncontrado.Total=Historial.Total;
-      hisorialEncontrado.Fecha_Entrada_Salida= Historial.Fecha_Entrada_Salida;
-      historialEncontrado.Hora_Entrada_Salida= Historial.Hora_Entrada_Salida;
-      historialEncontrado.Id_Cliente= Historial.Id_Cliente;
+      //historialEncontrado.Id_factura= Historial.Id_factura;
+      //historialEncontrado.Iva= Historial.Iva;
+      //historialEncontrado.Total=Historial.Total;
+      historialEncontrado.Fecha_Entrada_Salida= historial.Fecha_Entrada_Salida;
+      historialEncontrado.Hora_Entrada_Salida= historial.Hora_Entrada_Salida;
+      //historialEncontrado.Id_Cliente= Historial.Id_Cliente;
 
 
-      _appContext.Savechanges();
+      _appContext.SaveChanges();
     }
        return historialEncontrado; 
     }

@@ -2,6 +2,7 @@ using System;
 using Dominio;
 using Microsoft.EntityFrameworkCore;
 
+
 namespace TallerMecanica.Persistencia
 {
     public class ApppContext: DbContext
@@ -11,6 +12,8 @@ namespace TallerMecanica.Persistencia
         //public DbSet<Vehiculo> Vehiculos {get; set;}
         public DbSet<Tecnico> tecnicos {get; set;}
         public DbSet<Cliente> clientes {get; set;}
+        public DbSet<Historial> historiales{get;set;}
+        public DbSet<Reparacion> reparaciones{get;set;}
         public ApppContext()
         {}
 
