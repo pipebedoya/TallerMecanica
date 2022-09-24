@@ -166,3 +166,12 @@ C:\Users\afbed\Desktop\Taller mecanica clonado\TallerMecanica\Frontend\obj\Debug
 C:\Users\afbed\Desktop\Taller mecanica clonado\TallerMecanica\Frontend\obj\Debug\netcoreapp3.1\Frontend.dll
 C:\Users\afbed\Desktop\Taller mecanica clonado\TallerMecanica\Frontend\obj\Debug\netcoreapp3.1\Frontend.pdb
 C:\Users\afbed\Desktop\Taller mecanica clonado\TallerMecanica\Frontend\obj\Debug\netcoreapp3.1\Frontend.genruntimeconfig.cache
+C:\Users\feder\Documents\Servicio Automotriz\TallerMecanica\Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Tecnico\Crear.cshtml.g.cs
+C:\Users\feder\Documents\Servicio Automotriz\TallerMecanica\Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Tecnico\Detalles.cshtml.g.cs
+C:\Users\feder\Documents\Servicio Automotriz\TallerMecanica\Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Tecnico\Eliminar.cshtml.g.cs
+C:\Users\feder\Documents\Servicio Automotriz\TallerMecanica\Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Tecnico\Actualizar.cshtml.g.cs
+C:\Users\feder\Documents\Servicio Automotriz\TallerMecanica\Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Cliente\ActualizarCliente.cshtml.g.cs
+C:\Users\feder\Documents\Servicio Automotriz\TallerMecanica\Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Cliente\CrearCliente.cshtml.g.cs
+C:\Users\feder\Documents\Servicio Automotriz\TallerMecanica\Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Cliente\EditarCliente.cshtml.g.cs
+C:\Users\feder\Documents\Servicio Automotriz\TallerMecanica\Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Cliente\EliminarCliente.cshtml.g.cs
+C:\Users\feder\Documents\Servicio Automotriz\TallerMecanica\Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Cliente\MostrarListadoCliente.cshtml.g.cs

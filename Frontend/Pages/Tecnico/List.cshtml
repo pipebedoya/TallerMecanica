@@ -6,3 +6,27 @@
     <h1>Listado de Tecnicos</h1>
     <br>
 </div>
+<div>
+    <div>
+        <a asp-page= "Crear">Lista de Tecnicos</a>
+    </div>
+    <br><br>
+    <table class= "table">
+        <tr>
+            <th>ID</th>
+            <th>NOMBRE</th>
+            <th>APELLIDOS</th>
+            <th>EDAD</th>
+            <th>NUMERO TELEFONO</th>
+
+        </tr>
+        @foreach(var tecnico in Model.Tecnicos)
+        {
+            <tr>
+                <td>@tecnico.Id</td>
+                <td>@tecnico.Nombres</td>
+                <td>@tecnico.Apellidos</td>
+            </tr>
+        }
+    </table>
+</div>

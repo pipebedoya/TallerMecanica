@@ -15,7 +15,7 @@ namespace TallerMecanica.Persistencia
                _appContext = appContext;
           }
 
-      Cliente IRepositorioCliente.AddCliente (Cliente cliente) 
+      Cliente IRepositorioCliente.AddCliente(Cliente cliente) 
     {
         var clienteAdicionado=_appContext.clientes.Add(cliente);
        _appContext.SaveChanges();

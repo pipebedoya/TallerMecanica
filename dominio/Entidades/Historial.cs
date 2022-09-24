@@ -1,11 +1,12 @@
 using System;
 
-namespace Domino
+namespace Dominio
 {
     public class Historial
     {
-        public string Fecha_in_Fecha_Out {get;set;}
-        public float Hora_in_Hora_Out {get;set;}
+        public int Id {get;set;}
+        public string Fecha_Entrada_Salida {get;set;}
+        public string Hora_Entrada_Salida {get;set;}
         
     }
 }

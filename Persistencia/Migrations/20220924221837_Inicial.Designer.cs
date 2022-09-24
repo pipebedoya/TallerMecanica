@@ -9,7 +9,7 @@ using TallerMecanica.Persistencia;
 namespace TallerMecanica.Persistencia.Migrations
 {
     [DbContext(typeof(ApppContext))]
-    [Migration("20220923051412_Inicial")]
+    [Migration("20220924221837_Inicial")]
     partial class Inicial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -30,8 +30,8 @@ namespace TallerMecanica.Persistencia.Migrations
                     b.Property<string>("Apellido")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("Cedula")
-                        .HasColumnType("int");
+                    b.Property<string>("Cedula")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Direccion")
                         .HasColumnType("nvarchar(max)");

@@ -7,11 +7,12 @@ namespace Consola
 {
     class Program
     {
-        private static IRepositorioTecnico _RepoT = new RepositorioTecnico(new ApppContext());
+        private static IRepositorioCliente _RepoC = new RepositorioCliente(new ApppContext());
         static void Main(string[] args)
         {
-            ObtenerTecnicos();
-            AdicionarTecnico();
+            //ObtenerTecnicos();
+            //AdicionarTecnico();
+            AdicionarCliente();
            //EliminarTecnico(2);
             /*Tecnico t = new Tecnico();
             t.Nombres = "Juan";
@@ -24,7 +25,7 @@ namespace Consola
             // Console.WriteLine("Hello World!");
         }
 
-        private static void EliminarTecnico(int IdTecnico)
+       /* private static void EliminarTecnico(int IdTecnico)
         {
             _RepoT.DeleteTecnico(IdTecnico);
             Console.WriteLine("**************");
@@ -41,8 +42,19 @@ namespace Consola
             t.genero = "Masculino";
             _RepoT.AddTecnico(t);
             Console.WriteLine("Hello World!");
+        }*/
+        private static void AdicionarCliente()
+        {
+            Cliente c = new Cliente();
+            c.Nombre = "Jhon";
+            c.Apellido = "Jara Mora";
+            c.Cedula = "1061717317";
+            c.NumeroTelefono = "3225914053";
+            c.genero = "Masculino";
+            _RepoC.AddCliente(c);
+            Console.WriteLine("Hello World!");
         }
-        private static void ObtenerTecnicos()
+      /*  private static void ObtenerTecnicos()
         {
             var tecnicos = _RepoT.GetAllTecnico();
             foreach (var tecnico in tecnicos)
@@ -56,7 +68,7 @@ namespace Consola
             
 
 
-        }
+        }*/
 
 
     }
