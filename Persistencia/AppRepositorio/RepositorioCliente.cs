@@ -52,6 +52,8 @@ namespace TallerMecanica.Persistencia
        ClienteEncontrado.Cedula= cliente.Cedula;
        ClienteEncontrado.Direccion= cliente.Direccion;
        ClienteEncontrado.NumeroTelefono= cliente.NumeroTelefono;
+       ClienteEncontrado.Edad= cliente.Edad;
+       ClienteEncontrado.genero= cliente.genero;
 
       _appContext.SaveChanges();
     }

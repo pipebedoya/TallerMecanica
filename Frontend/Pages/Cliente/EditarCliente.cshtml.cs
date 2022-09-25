@@ -4,13 +4,29 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Dominio;
+using TallerMecanica.Persistencia;
 
-namespace MyApp.Namespace
+
+namespace Frontend.Pages
 {
     public class EditarClienteModel : PageModel
     {
-        public void OnGet()
+        private readonly IRepositorioCliente _repo;
+        public Cliente cliente {get;set;}
+        public EditarClienteModel(IRepositorioCliente repositorioC)
         {
+            _repo= repositorioC;
+        }
+        
+        public void OnGet(int id)
+        {
+             cliente= _repo.GetCliente(id);
+        }
+        public IActionResult OnPost(Cliente cliente)
+        {
+            _repo.UpdateCliente(cliente);
+            return new RedirectToPageResult("/Cliente/MostrarListadoCliente");
         }
     }
 }

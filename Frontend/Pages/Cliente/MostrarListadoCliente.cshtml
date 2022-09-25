@@ -33,7 +33,7 @@
                 <td>@cliente.Cedula</td>
                 <td>@cliente.NumeroTelefono</td>
                 <td>
-                    <a class="btn btn-primary" asp-page="./DetallesCliente"><i class="fa fa-circle"></i></a>
+                    <a class="btn btn-primary" asp-page="./DetallesCliente" asp-route-id="@cliente.Id"><i class="fa fa-circle"></i></a>
 
 
                 </td>
@@ -42,7 +42,7 @@
 
                 </td>
                 <td>
-                    <a class="btn btn-primary" asp-page="./EditarCliente"><i class="fa fa-pencil"></i></a>
+                    <a class="btn btn-success" asp-page="./EditarCliente" asp-route-id="@cliente.Id"><i class="fa fa-pencil"></i></a>
 
                 </td>
             </tr>

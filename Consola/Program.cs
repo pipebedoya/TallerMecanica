@@ -46,13 +46,15 @@ namespace Consola
         private static void AdicionarCliente()
         {
             Cliente c = new Cliente();
-            c.Nombre = "Jhon";
-            c.Apellido = "Jara Mora";
+            c.Nombre = "Juan David";
+            c.Apellido = "Jaramillo Mena";
             c.Cedula = "1061717317";
+            c.Edad = 34;
+            c.Direccion="Barrio El Cedro";
             c.NumeroTelefono = "3225914053";
             c.genero = "Masculino";
             _RepoC.AddCliente(c);
-            Console.WriteLine("Hello World!");
+            //Console.WriteLine("Hello World!");
         }
       /*  private static void ObtenerTecnicos()
         {

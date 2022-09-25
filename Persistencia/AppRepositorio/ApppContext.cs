@@ -9,7 +9,7 @@ namespace TallerMecanica.Persistencia
     {
         private const string connectionString = @"Data Source=localhost;Initial Catalog=DataBase;Integrated Security=True;";
         //public DbSet<Persona> personas {get; set;}
-        //public DbSet<Vehiculo> Vehiculos {get; set;}
+        public DbSet<Vehiculo> vehiculos {get; set;}
         public DbSet<Tecnico> tecnicos {get; set;}
         public DbSet<Cliente> clientes {get; set;}
         public DbSet<Historial> historiales{get;set;}
