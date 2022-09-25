@@ -19,7 +19,13 @@ namespace Frontend.Pages
         }
         public void OnGet(int id)
         {
-            _repo.GetCliente(id);
+            cliente=_repo.GetCliente(id);
+            //Console.WriteLine(id);
+        }
+        public IActionResult OnPost(int id)
+        {
+            _repo.DeleteCliente(id);
+            return new RedirectToPageResult("/Cliente/MostrarListadoCliente");
         }
     }
 }

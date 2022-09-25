@@ -2,3 +2,31 @@
 @model Frontend.Pages.EliminarClienteModel
 @{
 }
+<h1>Estas segura que quieres eliminar a</h1>
+<br><br><br>
+<div class="row">
+    <dt class="col-md-2">
+        @Html.DisplayNameFor(m => m.cliente.Nombre)
+    </dt>
+    <dd class="col-md-10">
+        @Html.DisplayFor(m => m.cliente.Nombre)
+    </dd>
+    <dt class="col-md-2">
+        @Html.DisplayNameFor(m => m.cliente.Apellido)
+    </dt>
+    <dd class="col-md-10">
+        @Html.DisplayFor(m => m.cliente.Apellido)
+    </dd>
+    <dt class="col-md-2">
+        @Html.DisplayNameFor(m => m.cliente.Cedula)
+    </dt>
+    <dd class="col-md-10">
+        @Html.DisplayFor(m => m.cliente.Cedula)
+    </dd>
+</div>
+<br>
+
+<form asp-page="./EliminarCliente/OnPost" method="post">
+@*<input type="hidden" asp-for="cliente.Id"/>*@
+<input type="submit" value="Eliminar" class="btn btn-danger"/>
+</form>
