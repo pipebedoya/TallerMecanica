@@ -4,13 +4,22 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Dominio;
+using TallerMecanica.Persistencia;
 
-namespace MyApp.Namespace
+namespace Frontend.Pages
 {
     public class EliminarClienteModel : PageModel
     {
-        public void OnGet()
+        private readonly IRepositorioCliente _repo;
+        public Cliente cliente {get;set;}
+        public EliminarClienteModel(IRepositorioCliente repoC)
         {
+            _repo= repoC;
+        }
+        public void OnGet(int id)
+        {
+            _repo.GetCliente(id);
         }
     }
 }

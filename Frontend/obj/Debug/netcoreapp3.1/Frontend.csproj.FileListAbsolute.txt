@@ -175,3 +175,4 @@ C:\Users\feder\Documents\Servicio Automotriz\TallerMecanica\Frontend\obj\Debug\n
 C:\Users\feder\Documents\Servicio Automotriz\TallerMecanica\Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Cliente\EditarCliente.cshtml.g.cs
 C:\Users\feder\Documents\Servicio Automotriz\TallerMecanica\Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Cliente\EliminarCliente.cshtml.g.cs
 C:\Users\feder\Documents\Servicio Automotriz\TallerMecanica\Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Cliente\MostrarListadoCliente.cshtml.g.cs
+C:\Users\feder\Documents\Servicio Automotriz\TallerMecanica\Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Cliente\DetallesCliente.cshtml.g.cs

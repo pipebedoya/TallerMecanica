@@ -2,29 +2,49 @@
 @model Frontend.Pages.MostrarListadoClienteModel//MyApp.Namespace.MostrarListadoClienteModel
 @{
 }
-<div class= "justify-content-center text-center">
+<div class="justify-content-center text-center">
     <h1>Listado de Clientes</h1>
     <br>
 </div>
 <div>
+    <div>
+        <a asp-page="CrearCliente">Nuevo Registro</a>
+    </div>
     <br><br>
-    <table class= "table">
+    <table class="table">
         <tr>
-            <th>ID</th>
-            <th>NOMBRE</th>
-            <th>APELLIDOS</th>
-            <th>CEDULA</th>
-            <th>NUMERO TELEFONO</th>
+            <th>Id</th>
+            <th>Nombres</th>
+            <th>Apellidos</th>
+            <th>Cedula</th>
+            <th>Telefono</th>
+            <th>Detalles</th>
+            <th>Eliminar</th>
+            <th>Editar</th>
 
         </tr>
-        @foreach(var cliente in Model.Clientes)
-        {        
+        @foreach (var cliente in Model.Clientes)
+        {
             <tr>
-                
+
                 <td>@cliente.Id</td>
                 <td>@cliente.Nombre</td>
                 <td>@cliente.Apellido</td>
                 <td>@cliente.Cedula</td>
+                <td>@cliente.NumeroTelefono</td>
+                <td>
+                    <a class="btn btn-primary" asp-page="./DetallesCliente"><i class="fa fa-circle"></i></a>
+
+
+                </td>
+                <td>
+                    <a class="btn btn-danger" asp-page="./EliminarCliente" asp-route-id="@cliente.Id"><i class="fa fa-trash"></i></a>
+
+                </td>
+                <td>
+                    <a class="btn btn-primary" asp-page="./EditarCliente"><i class="fa fa-pencil"></i></a>
+
+                </td>
             </tr>
         }
     </table>
